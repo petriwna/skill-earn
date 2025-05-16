@@ -1,0 +1,38 @@
+.input {
+  position: relative;
+  flex: 1;
+
+  &__label {
+    position: absolute;
+    top: 16px;
+    left: 42px;
+  }
+
+  &__control {
+    width: 100%;
+    padding: 22px 40px;
+    line-height: 1.17;
+    border-radius: 8px;
+    border: 1px solid var(--color-blue-normal);
+    background-color: var(--color-grey-light);
+
+    &:focus {
+      border-color: var(--color-blue-dark);
+      outline: none;
+    }
+
+    &::placeholder {
+      color: var(--color-grey-dark);
+      font-size: 16px;
+      line-height: 1.17;
+    }
+
+    &:focus::placeholder {
+      color: var(--color-black-light);
+    }
+
+    @media screen and (min-width: $bp-tablet) {
+      padding: 16px 42px;
+    }
+  }
+}

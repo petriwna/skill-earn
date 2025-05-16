@@ -1,0 +1,18 @@
+.logo-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+
+
+  &__img {
+    max-height: 90%;
+    max-width: 100px;
+    object-fit: contain;
+    transition: height 0.3s ease;
+
+    &:hover {
+      max-height: 100%;
+    }
+  }
+}

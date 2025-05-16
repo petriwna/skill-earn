@@ -1,0 +1,31 @@
+.faq-section {
+  &__title {
+    margin-bottom: 40px;
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: var(--color-primary-grey);
+    padding: 20px;
+    border-radius: 20px;
+
+    @media screen and (min-width: $bp-tablet) {
+      flex-direction: row;
+      padding: 80px;
+    }
+  }
+
+  &__questions {
+    width: 100%;
+
+    @media screen and (min-width: $bp-tablet) {
+      width: 60%;
+    }
+  }
+}

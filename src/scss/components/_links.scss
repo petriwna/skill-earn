@@ -1,0 +1,23 @@
+.link {
+  color: var(--color-text-primary);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: lowercase;
+  line-height: 150%;
+  text-align: center;
+
+  &:hover {
+    color: var(--color-blue-dark);
+  }
+
+  &--content {
+    font-weight: 700;
+    text-decoration: underline;
+    opacity: 0.8;
+
+    &:hover {
+      color: var(--color-brand-normal);
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.careers-section {
+  padding: 4rem 1rem;
+
+  &__careers {
+    overflow: hidden;
+  }
+
+  &__list {
+    margin-bottom: 32px;
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    grid-template-columns: 1fr;
+
+    @media screen and (min-width: $bp-tablet) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}

@@ -1,0 +1,78 @@
+.hero-section {
+  padding: 171px 0;
+  position: relative;
+  z-index: 0;
+
+  &__decor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-size: contain;
+    background-position: top;
+    background-image: url("./../../public/images/hero-decor.png");
+    width: 764px;
+    height: 661px;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 40px;
+
+    @media screen and (min-width: $bp-tablet) {
+      flex-direction: row;
+    }
+  }
+
+  &__content {
+    width: 100%;
+    text-align: center;
+
+    @media screen and (min-width: $bp-tablet) {
+      width: 65%;
+      text-align: left;
+    }
+  }
+
+  &__title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100%;
+    text-transform: capitalize;
+
+    @media screen and (min-width: $bp-mobile) {
+      font-size: 48px;
+    }
+
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 46px;
+    }
+
+    @media screen and (min-width: $bp-desktop) {
+      font-size: 64px;
+    }
+  }
+
+  &__text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 165%;
+    letter-spacing: 0.03em;
+  }
+
+  &__button {
+    margin: 0 auto;
+  }
+
+  &__img {
+    width: 100%;
+
+    @media screen and (min-width: $bp-tablet){
+      border-radius: 0 72px 0 136px;
+      width: 50%;
+    }
+  }
+}

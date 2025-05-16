@@ -1,0 +1,15 @@
+.questions-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  &__title {
+    margin: 0;
+  }
+
+  &__answer {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 172%;
+  }
+}

@@ -1,0 +1,19 @@
+.platforms-section {
+  text-align: center;
+
+  &__title {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: var(--color-text-primary-light);
+  }
+
+  &__link {
+    filter: grayscale(100%);
+
+    &:hover {
+      filter: grayscale(0%);
+    }
+  }
+}

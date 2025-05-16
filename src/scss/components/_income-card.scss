@@ -1,0 +1,23 @@
+.income-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  &__icon {
+    fill: var(--color-brand-second-light);
+  }
+
+  &__title {
+    color: var(--color-text-primary);
+    margin-bottom: 8px;
+  }
+
+  &__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 165%;
+    letter-spacing: 0.03em;
+    color: var(--color-text-primary);
+    opacity: 0.8;
+  }
+}

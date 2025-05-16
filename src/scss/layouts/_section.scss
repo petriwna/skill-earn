@@ -1,0 +1,25 @@
+.section {
+  padding: 20px 0;
+
+  @media screen and (min-width: $bp-tablet){
+    padding: 48px 0;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    text-transform: capitalize;
+
+    &--centered {
+      text-align: center;
+    }
+  }
+
+  &__subtitle {
+    font-size: 22px;
+    line-height: 100%;
+    text-transform: capitalize;
+    padding-top: 8px;
+  }
+}

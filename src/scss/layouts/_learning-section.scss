@@ -1,0 +1,31 @@
+.learning-section {
+  padding: 72px 0;
+  position: relative;
+
+  &__container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+
+    @media screen and (min-width: $bp-tablet) {
+      flex-direction: row-reverse;
+    }
+  }
+
+  &__img {
+    object-fit: contain;
+  }
+
+  &__decor {
+    position: absolute;
+    background-image: url("../../public/images/decor.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    right: 0;
+    height: 1291px;
+    width: 547px;
+  }
+}
