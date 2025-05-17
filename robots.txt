@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /privacy-зщдшсн
+Disallow: /terms
+Disallow: /cookies
+Allow: /
+
+Sitemap: https://your-domain.ca/sitemap.xml
